@@ -265,7 +265,7 @@ footer{
 
 .aboutInfo{
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: space-between;
 	@media (max-width: 768px) {
 		flex-direction: column;
@@ -548,12 +548,12 @@ footer{
 }
 
 .button:hover{
-	-webkit-box-shadow:inset 0px 0px 0px 4px $secondaryColor;
-	-moz-box-shadow:inset 0px 0px 0px 3px $secondaryColor;
-	box-shadow:inset 0px 0px 0px 3px $secondaryColor;
-	background: url(../../images/buttonBackground.png), $tertiaryColor;
+	-webkit-box-shadow:inset 0px 0px 0px 4px darken($secondaryColor, 20%);
+	-moz-box-shadow:inset 0px 0px 0px 3px darken($secondaryColor, 20%);
+	box-shadow:inset 0px 0px 0px 3px darken($secondaryColor, 20%);
 	background-size: cover;
 	color: $mainFontColor;
+	background-color: darken($secondaryColor, 20%);
 	transform: scale(1.05);
 }
 

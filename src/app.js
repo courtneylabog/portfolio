@@ -6,7 +6,7 @@ app.init = function (){
 };
 
 app.events = function(){
-$('#FED').hover(
+$('h1').hover(
 	function(){
 	console.log('thisworks')
 	$('#svgSpan').toggleClass('hidden');
