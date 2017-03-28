@@ -86,6 +86,8 @@ h5{
 
 // about section
 .about {
+	position: relative;
+	z-index: 10;
 	display: flex;
 	font-family: $mainTypog;
 	color: $mainFontColor;

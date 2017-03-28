@@ -203,20 +203,22 @@ svg {
   margin: 0 auto;
   width: 100%;
   position: absolute;
-  bottom: -60%;
-  left: 0%; }
+  top: -10%;
+  left: 0;
+  bottom: 0;
+  right: 0; }
   @media (max-width: 1055px) {
     svg {
-      bottom: -50%; } }
+      top: 10%; } }
   @media (max-width: 940px) {
     svg {
-      bottom: -45%; } }
+      top: -10%; } }
   @media (max-width: 890px) {
     svg {
-      bottom: -40%; } }
+      top: -10%; } }
   @media (max-width: 767px) {
     svg {
-      display: none; } }
+      top: -10%; } }
 
 .hidden {
   visibility: hidden; }
@@ -448,6 +450,8 @@ h5 {
   letter-spacing: 1.2px; }
 
 .about {
+  position: relative;
+  z-index: 10;
   display: flex;
   font-family: "Work Sans", sans-serif;
   color: #FFF;

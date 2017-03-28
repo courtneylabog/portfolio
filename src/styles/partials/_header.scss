@@ -21,19 +21,21 @@ svg{
 	margin: 0 auto;
 	width: 100%;
 	position: absolute;
-	bottom: -60%; 
-	left: 0%;
+	top: -10%;
+	left: 0;
+	bottom: 0;
+	right: 0; 
 	@media (max-width: 1055px) {
-		bottom: -50%; 
+		top: 10%
 	}
 	@media (max-width: 940px) {
-		bottom: -45%; 
+		top: -10%
 	}
 	@media (max-width: 890px) {
-		bottom: -40%; 
+		top: -10%
 	}
 	@media (max-width: 767px) {
-		display: none;
+		top: -10%
 	}
 }
 
@@ -138,7 +140,6 @@ visibility: visible;
 -webkit-transform: scaleX(1);
 transform: scaleX(1);
 }
-
 
 
 .mainName {
