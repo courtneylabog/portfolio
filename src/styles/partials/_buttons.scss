@@ -1,0 +1,56 @@
+// BUTTONS
+.button{
+	border-radius: 1.5px;
+	outline: none;
+	border: none;
+	font-family: $mainTypog;
+	color: $mainFontColor;
+	background-color: $secondaryColor;
+	transition: all 0.2s;
+}
+
+.button:hover{
+	-webkit-box-shadow:inset 0px 0px 0px 4px darken($secondaryColor, 20%);
+	-moz-box-shadow:inset 0px 0px 0px 3px darken($secondaryColor, 20%);
+	box-shadow:inset 0px 0px 0px 3px darken($secondaryColor, 20%);
+	background-size: cover;
+	color: $mainFontColor;
+	background-color: darken($secondaryColor, 20%);
+	transform: scale(1.05);
+}
+
+.button__preview{
+	padding: 10px 25px;
+	font-size: 1.8rem;
+	@media (max-width: 320px) {
+		font-size: 1.6rem;
+	}
+}
+
+.button__git {
+	font-size: 3rem;
+	padding: 5px 25px 5px 25px;
+	margin-right: 10px;
+	@media (max-width: 320px) {
+		font-size: 2rem;
+	}
+}
+
+.buttonContainer{
+	display: flex;
+	justify-content: flex-start;
+	@media (max-width: 768px) {
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+}
+
+.button__submit{
+	margin: 60px auto 10px auto;
+	padding: 10px 30px 10px 30px;
+	font-size: 2rem;
+	text-align: center;
+	@media (max-width: 940px) {
+		margin: 50px auto 10px auto;
+	}
+}

@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Courtney Labog</title>
+	<link type="image/png" href="images/favicon.png" rel="icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
 	<link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet">
 	<link rel="stylesheet" href="./public/styles/style.css">
 </head>
 <body>
@@ -38,21 +39,23 @@
 	</header>
 	<main>
 		<section id="about" class="about">
-			<div class="about__content contentWrapper">
-				<div class="about__header">
-					<h2><span>/ About</span></h2>
+				<div class="portraitContainer">
+					<img src="images/squarecourt.png" alt="Black and white photo of Courtney Labog, Front End Web Developer">
 				</div>
 				<div class="aboutInfo">
-					<div class="portraitContainer">
-						<img src="images/squarecourt.png" alt="Black and white photo of Courtney Labog, Front End Web Developer">
-					</div>
-					<div class="about__bio">
-						<h5>Hi, I’m Courtney.</h5>
-						<p> I am a front-end developer based in Toronto, Canada. Creating beautiful yet functional websites is my passion. Staying current with best practices and development trends excites me. I am eager to expand my knowledge of React and other JavaScript frameworks like Vue. I’d also love to dive into a backend language like Ruby.</p>
-						<p>
-							When I am not coding I am probably travelling or enjoying new experiences. 
-						</p>
-					</div>
+				<div class="about__header">
+					<h2>
+						/ About
+					</h2>
+				</div>
+				<div class="about__bio">
+					<h5>Hi, I’m Courtney.</h5>
+					<p> I am a front-end developer based in Toronto, Canada. I strive to create beautiful yet functional websites. My passion revolves around staying current with development and design best practices and trends.</p>
+					<p> My main goal moving forward is to expand my knowledge of React and other JavaScript frameworks like Vue. I’d also love to dive into a backend language like Ruby.
+					</p>
+					<!-- <p>
+							In my free time I enjoy traveling.
+					</p> -->
 				</div>
 			</div>
 		</section>
@@ -121,7 +124,7 @@
 							<h4>
 								<span>PSD Conversion - Responsive Design</span>
 							</h4>
-							<p class="project--desc">Converted a single page PSD file to a fully responsive website.</p>
+							<p class="project--desc">Converted a single page PSD file to a fully responsive website. </p>
 						</div>
 						<div class="buttonContainer">
 						<a href="https://github.com/courtneylabog/modern" class="button button__git" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -133,7 +136,6 @@
 							<img src="images/project2.png" alt="">
 						</a>
 					</div>
-					
 				</div>
 				<div class="portfolioPiece">
 					<div class="portfolioPiece__preview preview--left">
@@ -147,7 +149,7 @@
 							<h4>
 								<span>JavaScript API Application</span>
 							</h4>
-							<p class="project--desc">Utilized Google Maps Time Zone API and Geolocation API to create an application that compares two cities' timezones.</p>
+							<p class="project--desc">Utilized Google Maps Time Zone API and Geolocation API to create an application that compares two cities' timezones side by side.</p>
 						</div>
 						<div class="buttonContainer">
 						<a href="https://github.com/courtneylabog/timezoner" class="button button__git" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -163,15 +165,19 @@
 								<span>React Single Page Application</span>
 							</h4>
 							<p class="project--desc">
-								Created a single page application using React and Firebase that enables a user to store places they want to remember. The application can store images, location and notes related to that place.
+								Created a single page application using React and Firebase that enables the user to store places they've visited. The application can store images, location and notes related to that place.
 							</p>
 						</div>
 						<div class="buttonContainer">
 						<a href="https://github.com/courtneylabog/places" class="button button__git" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-						<a href="https://google.com" class="button button__preview" target="_blank">View Live</a>
+						<a href="https://places-blog-2ddc9.firebaseapp.com/" class="button button__preview" target="_blank">View Live</a>
 						</div>
 					</div>
-					<div class="portfolioPiece__preview preview--right"></div>
+					<div class="portfolioPiece__preview preview--right">
+						<a href="https://places-blog-2ddc9.firebaseapp.com/" target="_blank">
+							<img src="images/project6.png" alt="">
+						</a>
+					</div>
 				</div>
 				<div class="portfolioPiece">
 					<div class="portfolioPiece__preview preview--left">
@@ -225,8 +231,11 @@
 				<i class="fa fa-linkedin" aria-hidden="true"></i>
 			</a>
 		</div>
-		<p>&copy; Courtney Labog 2017</p>
-		<p class="footer__contact">hello@courtneylabog.com</p>
+		<p>
+			&copy; Courtney Labog 2017 - <span class="footer__contact">hello@courtneylabog.com</span>
+		</p>
+		
+		<p class="footer__credits ">Thank you to Korokoro from the Noun Project for the SVG & Pam Lau for the portrait.</p>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="./public/app.js"></script>

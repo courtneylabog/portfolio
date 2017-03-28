@@ -1,20 +1,16 @@
 const app = {};
 
 app.init = function (){
-	console.log('init')
 	app.events();
 };
 
 app.events = function(){
 $('h1').hover(
 	function(){
-	console.log('thisworks')
-	$('#svgSpan').toggleClass('hidden');
-	$('#svgSpan').fadeToggle(2000);
-	// $('#svgSpan').fadeIn(600);
-	// $('#svgSpan').fadeOut(600);
+	$('#svgSpan').removeClass('hidden');
+	$('#svgSpan').fadeToggle(4000);
 	})
-	$(function(){console.log('yo, this is a test');
+	$(function(){console.log('scroll test');
 	    $('a[href*="#"]:not([href="#"])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 	      var target = $(this.hash);
