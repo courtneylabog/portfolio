@@ -5,12 +5,7 @@ app.init = function (){
 };
 
 app.events = function(){
-$('h1').hover(
-	function(){
-	$('#svgSpan').removeClass('hidden');
-	$('#svgSpan').fadeToggle(4000);
-	})
-	$(function(){console.log('scroll test');
+	$(function(){console.log('scroll down :)');
 	    $('a[href*="#"]:not([href="#"])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 	      var target = $(this.hash);
@@ -23,7 +18,7 @@ $('h1').hover(
 	      }
 	    }
 	  });
-	 }); 
+	}); 
 }
 
 // doc ready:

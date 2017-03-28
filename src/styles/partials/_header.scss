@@ -17,26 +17,36 @@ header {
 }
 
 svg{
-	fill: rgba(204, 196, 193, 0.2);
+	fill: rgba(204, 196, 193, 0.15);
 	margin: 0 auto;
 	width: 100%;
 	position: absolute;
-	top: -10%;
+	top: 0%;
 	left: 0;
 	bottom: 0;
 	right: 0; 
-	@media (max-width: 1055px) {
-		top: 10%
+	transition: all 0.5s ease-in;
+	@media (max-width: 768px) {
+		width: 110%;
+		left: -10%;
 	}
-	@media (max-width: 940px) {
-		top: -10%
+	@media (max-width: 670px) {
+		width: 130%;
+		left: -10%;
 	}
-	@media (max-width: 890px) {
-		top: -10%
+	@media (max-width: 570px) {
+		width: 150%;
 	}
-	@media (max-width: 767px) {
-		top: -10%
+	@media (max-width: 480px) {
+		width: 220%;
 	}
+	@media (max-width: 320px) {
+		width: 250%;
+	}
+}
+
+svg:hover{
+	transform: scale(1.01);
 }
 
 .hidden {
