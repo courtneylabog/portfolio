@@ -183,6 +183,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       margin: 50px auto 10px auto; } }
 
 ul {
+  position: relative;
+  z-index: 10;
   list-style-type: none;
   margin: 0;
   padding: 0;
