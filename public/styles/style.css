@@ -214,14 +214,13 @@ svg {
       left: -10%; } }
   @media (max-width: 670px) {
     svg {
-      width: 130%;
-      left: -10%; } }
+      width: 120%; } }
   @media (max-width: 570px) {
     svg {
       width: 150%; } }
   @media (max-width: 480px) {
     svg {
-      width: 220%; } }
+      width: 200%; } }
   @media (max-width: 320px) {
     svg {
       width: 250%; } }
@@ -295,12 +294,12 @@ nav li {
   font-family: "Work Sans", sans-serif;
   font-size: 1.8rem;
   padding-bottom: 10px;
-  margin: 40px 30px 20px 30px;
+  margin: 30px 20px 10px 20px;
   letter-spacing: 1.1px;
   position: relative; }
   @media (max-width: 580px) {
     nav li {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       margin: 30px 15px 30px 15px; } }
   @media (max-width: 400px) {
     nav li {
@@ -348,6 +347,7 @@ nav li:hover:before {
           font-size: 8rem; } }
 
 footer {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -355,12 +355,15 @@ footer {
   font-family: "Work Sans", sans-serif;
   color: #FFF;
   background-color: #D0816E;
-  font-size: 1.8rem; }
+  font-size: 1.6rem; }
   footer p {
     margin: 0 0 30px 0; }
 
 .footer__content {
   padding: 50px 0 50px 0; }
+  @media (max-width: 580px) {
+    .footer__content {
+      padding: 50px 10px; } }
 
 .footerHeader {
   font-weight: normal;
@@ -396,6 +399,10 @@ footer {
 
 html {
   font-size: 10px; }
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden; } }
 
 a {
   display: inline;

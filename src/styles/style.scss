@@ -8,6 +8,12 @@ html {
 	font-size: 10px;
 }
 
+@media (max-width: 768px) {
+	body{
+		overflow-x: hidden;
+	}
+}
+
 a {
 	display: inline;
 	color: inherit; 
