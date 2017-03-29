@@ -328,7 +328,7 @@ nav li:hover:before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 88vh; }
+  height: 95vh; }
   .mainName a {
     align-self: center; }
     .mainName a i.animated.pulse.infinite.fa.fa-angle-down {
